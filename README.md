@@ -15,3 +15,6 @@ Task:
 -Select the best subset of variables, of any size, so that the MSE is as small as possible.
 
 -Prepare predictions for data.test (prot_pred.Rdata file)
+
+
+I used Ridge and Lasso Regression.
