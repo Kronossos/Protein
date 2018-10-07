@@ -3,7 +3,7 @@
 Project implemented on the statistics classes.
 
 
-The protein.RData file contains data.train set contains the column Y: the level of a certain protein in the group of patients (computer-generated data).
+The protein.RData file contains data.train set with the column Y: the level of a certain protein in the group of patients (computer-generated data).
 
 
 
