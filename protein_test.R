@@ -1,0 +1,26 @@
+# PROTEIN TEST 
+
+# svm_model <- tune(svm, Y ~ .,  data = as.data.frame(train), ranges = list(epsilon = seq(0,1,0.1), cost = 2^(2:9)))
+# svm_predict = predict(svm_model,newx=X_test)
+# svm_MSE=sum((Y_test-svm_predict)^2)/length(Y_test)
+# svm_R2= 1 - (sum((Y_test-svm_predict )^2)/sum((Y_test-mean(Y_test))^2))
+# cat('\nSVM R2: ',svm_R2)
+# cat("\nSVM MSE: ",svm_MSE)
+# cat("\n")
+
+# pcr_model = pcr(Y~., data = as.data.frame(X),scale = TRUE, validation = "CV")
+# validationplot(pcr_model, val.type = "MSEP")
+# ncomp_selected = readline("Give ncomp: ")
+# pcr_predict = predict(pcr_model,newx=X_test,ncomp = ncomp_selected)
+# pcr_coef = as.matrix(coef(pcr_model))
+# pcr_MSE = sum((Y_test-pcr_predict)^2)/length(Y_test)
+# pcr_R2 = 1 - (sum((Y_test-pcr_predict )^2)/sum((Y-mean(Y_test))^2))
+# cat('\nPCR R2: ',pcr_R2)
+# cat("\nPCR MSE: ",pcr_MSE)
+# cat("\n")
+
+# linear_model = lm(Y ~ . , data=as.data.frame(X))
+# linear_predict = predict(linear_model)
+# linear_coef = as.data.frame(as.matrix(coef(linear_model)), arr.ind = TRUE)
+# linear_MSE = sum((Y-linear_predict)^2)/length(Y)
+# linear_R2 = 1 - (sum((Y-linear_predict )^2)/sum((Y-mean(Y))^2))
